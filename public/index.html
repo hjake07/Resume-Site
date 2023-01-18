@@ -5,15 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/962c33f4bf.js" crossorigin="anonymous"></script>
+    <script src="animate.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Jacob Davies</title>
 </head>
 <body>
-    <header><h3 class="name">Jacob Davies</h3></header>
+    <header class="wrapper">
+        <h3 class="name slide">Jacob Davies</h3>
+    </header>
+    <div class="movein-wrapper">
+    <h1 class="sitesh1" id="movein">My Video Biography</h1>
+    </div>
+    <div class="videoContainer">
+        <iframe id="vidDimensions" src="https://www.youtube.com/embed/Y80OzZgs27w?autoplay=1&mute=1" title="Skyrim as a 1980's Epic Fantasy Movie (Part 1)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
     <div class="mySites">
-        <h1>My Deployed Sites</h1>
+        <div class="movein-wrapper1">
+        <h1 class="sitesh1" id="movein">My Deployed Sites</h1>
+        </div>
         <iframe src="https://andresrojas.onrender.com/" title="ConstructionSite"></iframe>
         <iframe src="https://hjake07.github.io/" title="MockRecipeSite"></iframe>
-        <iframe src="https://hjake07.github.io/GolfScoreApp/" title="GolfScoreCard"></iframe>
     </div>
+    <div class="experience">
+        <div class="movein-wrapper2">
+        <h1 class="sitesh1" id="movein">My Experience/Knowledge</h1>
+        </div>
+            <ul class="ulwidth fadeInUl">
+                <li>2 years JavaScript</li>
+                <li>2 years CSS</li>
+                <li>10 years knowledge of HTML</li>
+                <li>I know React, Bootstrap, SASS, Express, PUG, Node and Jquery as well</li>
+            </ul>
+            <div class="movein-wrapper3">
+            <h1 class="sitesh1" id="movein">My Schooling</h1>
+            </div>
+                <ul class="ulwidth fadeInUl1">
+                    <li>HTML class in middle school</li>
+                    <li>Codecademy: HTML, CSS, and JavaScript</li>
+                    <li>Intro to Programming (MTECH)</li>
+                    <li>Web Programming and Development (MTECH)</li>
+                </ul>
+    </div>
+    <div class="pictures">
+        <main>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 height" src="jake.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 height" src="fam.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 height" src="me&vero.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </main>
+    </div> 
+    <div class="experience">
+        <div class="movein-wrapper4">
+        <h1 class="sitesh1" id="movein">Me</h1>
+        </div>
+        <div class="fadeInP">
+        <p class="metext ulwidth">"Highly motivated web developer with a strong background in multiple web development technologies. A dedicated father of four with a passion for the outdoors and fishing. Proven ability to work effectively both independently and as part of a team. Detail-oriented and committed to staying current with the latest web development trends and best practices. Proven ability to deliver projects on time and within budget. Strong problem-solving skills and ability to think creatively to find solutions. Committed to producing high-quality, user-friendly websites and web applications."</p>
+    </div>
+    </div>
+    <div class="container">
+        <div class="skinnycontainer">
+        <h1 class="contacth1">Contact Info</h1>
+        <ul class="skinnyUl">
+            <li class="alignicons"><i class="fa-brands fa-linkedin"></i><a class="contactLink" href="https://www.linkedin.com/in/jacob-davies-984164249/">LinkedIn</a></li>
+            <li class="alignicons"><i class="fa-brands fa-github"></i><a class="contactLink" href="https://github.com/hjake07">Github</a></li>
+            <li class="alignicons"><i class="fa-solid fa-envelope"></i>Email: jdavies212@gmail.com</li>
+            <li><i class="fa-solid fa-mobile"></i>Phone: 801-358-2552</li>
+        </ul>
+    </div>
+       
+       <p class="contactMeSentence">Feel Free to Contact me Through this Form! Email or text works as well!</p>
+    
+       <form action="https://formsubmit.co/jdavies212@gmail.com" method="POST">
+        <label for="name">Your Name</label>
+        <input id = "name" class="input" type="text" placeholder="Your Name" name="name" required>
+        <label for = "email">Your Email</label>
+        <input id="email" class="input" type="email" placeholder="Your Email" name="email" required>
+        <label for="textarea">Your Message</label> 
+        <textarea class="textarea" col="30" rows="6" id ='textarea' name="text" required></textarea>
+        <input class="submit" type="submit" value="Send Message">
+    </form>
+    </div>
+    <footer></footer>
 </body>
 </html>
