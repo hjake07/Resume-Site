@@ -8,7 +8,7 @@
     "test": "start"
   },
   "repository": {
-    "type": "git",
+    "type": "git", 
     "url": "git+https://github.com/hjake07/Resume-Site.git"
   },
   "author": "Jacob Davies",

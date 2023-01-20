@@ -239,6 +239,9 @@ background-color: #1770d0;
     
     height: 500px;
 }
+.margin {
+    margin: 20px auto;
+}
 @media only screen and (max-width:600px){
 
 .sitesh1 {
