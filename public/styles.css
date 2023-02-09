@@ -162,10 +162,11 @@ form {
     flex-direction: column;
     justify-content: center;
     border: 1px solid black;
-    width:60%;
+    width:700px;
     padding: 50px;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 10px;
+    
 }
 .textarea {
     border-radius: 5px;
@@ -223,6 +224,8 @@ background-color: #1770d0;
     padding: 5px;
     border-radius: 5px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .carousel {
     width: 600px;
@@ -257,10 +260,14 @@ background-color: #1770d0;
 }
 form {
     width: 100%;
+    margin: 0;
 }
+iframe {
+    width: 100%;
+   }
 }
 @media only screen and (max-width:900px){
-    form {
-        width: 80%;
-    }
+   iframe {
+    width: 95%;
+   }
 }
