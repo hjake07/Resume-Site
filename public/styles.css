@@ -271,3 +271,6 @@ iframe {
     width: 95%;
    }
 }
+.leftorange {
+    border-left: 5px solid orange;
+}
