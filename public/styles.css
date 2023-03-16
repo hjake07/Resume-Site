@@ -274,3 +274,7 @@ iframe {
 .leftorange {
     border-left: 5px solid orange;
 }
+.links {
+    color: rgb(29, 29, 98);
+    margin-left: 50px;
+}
