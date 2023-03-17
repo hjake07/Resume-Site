@@ -4,7 +4,7 @@ header, footer {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center !important;
     padding: 0 2%;
 }
 .slide {
@@ -19,12 +19,12 @@ header, footer {
     transform: translateX(0)
 }
 }
-@media (prefers-reduced-motion: no-preference){
+
     .movein-animation {
         animation-name: slideInLeft;
         animation-duration: 1s;
     }
-}
+
 .contactLink {
     
     display: inline-block;
@@ -33,6 +33,7 @@ header, footer {
 }
 a:hover {
     text-decoration: none !important;
+    color: black;
 }
 .contactLink::after {
     content: '';
@@ -40,7 +41,7 @@ a:hover {
     height: 2px;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100%; 
     position: absolute;
     transform: scaleX(0);
     background-color: rgb(216, 165, 47);
@@ -56,6 +57,39 @@ a:hover {
     margin: 20px 0;
     height: 500px;
     border: 1px solid white;
+}
+.body {
+    background-color:rgb(85, 82, 82);
+}
+.poke {
+    background-image: url("poke.jpg");
+    background-size: cover;
+
+}
+.paint {
+    background-image: url("paint.jpg");
+    background-size: cover;
+
+}
+.xceed {
+    background-image: url("xceed.jpg");
+    background-size: cover;
+}
+.links {
+    height: 250px;
+    width:300px;
+    text-align: center;
+    color: gray;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 60%;
+    margin: 20px auto;
+}
+.card-body {
+    width: 50%;
 }
 .widthchange {
     height: 50px;
@@ -101,8 +135,8 @@ body {
     width: 100%;
 }
 iframe {
-    height: 700px;
-    width: 90%;
+    height: 90vh;
+    width: 100%;
     margin: 0 auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -200,6 +234,10 @@ background-color: #1770d0;
    flex-direction: column;
    align-items: center;
 }
+.rowcontianer {
+    display: flex;
+    margin: 0 auto;
+}
 .skinnycontainer {
     position: relative;
     width: 40%;
@@ -277,4 +315,15 @@ iframe {
 .links {
     color: rgb(29, 29, 98);
     margin-left: 50px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+.navlinks {
+    margin: 50px;
+    color: white;
+}
+.navlinks:hover {
+    color: black;
 }
