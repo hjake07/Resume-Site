@@ -197,7 +197,6 @@ ul {
     list-style-type: none;
 }
 .ulwidth {
-    margin: 0 auto;
     width: 77%;
     background-color: white;
 }
@@ -352,14 +351,74 @@ header {
 .card {
     width: 100%;
 }
-.links{
+.links {
     width: 70%;
 }
 }
-@media only screen and (max-width:900px){
-   iframe {
-    width: 95%;
+@media only screen and (max-width:1200px){
+   .metext {
+    position: absolute;
+    right: 10px;
+    left: 250px;
    }
+   .pictures {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+   }
+
+}
+@media only screen and (max-width: 1000px){
+    .smallImg {
+        width: 100px;
+        height: auto;
+    }
+    .smallDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .links {
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 900px){
+    .metext {
+        top: 100px;
+        right: 10px;
+        left: 10px;
+    }
+    .h1s {
+        font-size: 30px;
+        padding: 0 20px;
+    }
+   
+}
+@media only screen and (max-width: 750px){
+    .card {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .metext {
+        background-color: rgba(255, 255, 255, 0.666);
+    }
+    .backgroundimage {
+        margin-bottom: 200px;
+    }
+    .h1s {
+        font-size: 18px;
+    }
+    .main {
+        align-items: flex-start;
+        width: fit-content;
+    }
+    .carousel {
+        width: inherit;
+    }
+    .videobio {
+        padding-top: 20px;
+        width: inherit;
+    }
 }
 .leftorange {
     border-left: 5px solid orange;
