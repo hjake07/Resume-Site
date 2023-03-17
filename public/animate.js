@@ -10,8 +10,8 @@ const observer = new IntersectionObserver(entries => {
 // observer.observe(document.querySelector('.movein-wrapper'))
 // observer.observe(document.querySelector('.movein-wrapper1'))
 observer.observe(document.querySelector('.movein-wrapper2'))
-observer.observe(document.querySelector('.movein-wrapper3'))
-observer.observe(document.querySelector('.movein-wrapper4'))
+// observer.observe(document.querySelector('.movein-wrapper3'))
+// observer.observe(document.querySelector('.movein-wrapper4'))
 
 const newObserver = new IntersectionObserver(entries =>{
     entries.forEach(entry => {

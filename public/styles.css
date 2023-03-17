@@ -82,15 +82,30 @@ a:hover {
     text-align: center;
     color: gray;
 }
+.flexCard {
+    display: flex;
+    flex-direction: column;
+}
 .card {
     display: flex;
     flex-direction: row;
     height: fit-content;
-    width: 60%;
+    min-width: fit-content;
+    max-width: 70%;
     margin: 20px auto;
+    padding: 10px;
+}
+.smallImg {
+    width: 200px;
+    height: 150px;
+    transition: all .2s ease-in-out
+}
+
+.smallImg:hover {
+    transform: scale(1.1)
 }
 .card-body {
-    width: 50%;
+    width: 100%;
 }
 .widthchange {
     height: 50px;
@@ -98,6 +113,10 @@ a:hover {
     margin: 0 auto;
     color: white;
     background-color: #49586e;
+}
+
+.twolists {
+    display: flex;
 }
 .pictures {
     background-color:rgb(85, 82, 82);
@@ -133,7 +152,9 @@ body {
     padding: 0;
 }
 .videobio {
-    width: 100%;
+    margin-top: 7%;
+    width: 700px;
+    height: 450px;
 }
 iframe {
     height: 700px;
@@ -156,7 +177,7 @@ iframe {
     flex-direction: column;
 }
 .experience{
-    background-color:#cbcfd3;
+    background-color:white;
     width: 100%;
     margin: 0 auto;
     padding: 5px 0;
@@ -251,6 +272,20 @@ background-color: #1770d0;
     flex-direction: column;
     justify-content: flex-start;
 }
+.backgroundimage {
+    background-image: url('pexels-joão-jesus-925706.png');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-color: rgb(237, 232, 232);
+    height: 500px;
+    position:relative;
+}
+.topMePic {
+    height: 750px;
+    margin:0;
+    position: absolute;
+    bottom:-108px;
+}
 .skinnyUl {
     left:-2\50;
 }
@@ -304,7 +339,7 @@ background-color: #1770d0;
 }
 form {
     width: 100%;
-    margin: 0;
+    margin-bottom: 100px;
 }
 iframe {
     width: 100%;
