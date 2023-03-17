@@ -135,14 +135,19 @@ body {
     width: 100%;
 }
 iframe {
-    height: 90vh;
-    width: 100%;
+    height: 700px;
+    width: 90%;
     margin: 0 auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .iframes {
     display: flex;
     flex-direction: row;
+}
+.myframes {
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
 }
 .mySites {
     display: flex;
