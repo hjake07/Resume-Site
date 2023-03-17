@@ -308,6 +308,17 @@ form {
 iframe {
     width: 100%;
    }
+header {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    width: 100%;
+}
+.links{
+    width: 70%;
+}
 }
 @media only screen and (max-width:900px){
    iframe {
