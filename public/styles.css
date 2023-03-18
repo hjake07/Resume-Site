@@ -332,6 +332,9 @@ background-color: #1770d0;
     .metext {
         font-size: 14px;
     }
+    .experience {
+        margin: 0 auto;
+    }
 }
 @media only screen and (max-width:600px){
 .container {
