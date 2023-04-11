@@ -450,3 +450,18 @@ header {
 .navlinks:hover {
     color: black;
 }
+@media only screen and (max-width: 450px){
+footer {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.movein-wrapper2 h1{
+  font-size: 16px;
+  margin: 0;
+  padding-left: 0;
+}
+.twolists li{
+    font-size: 14px;
+}
+}
