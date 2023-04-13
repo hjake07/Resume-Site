@@ -63,17 +63,17 @@ a:hover {
     background-color:rgb(85, 82, 82);
 }
 .poke {
-    background-image: url("poke.jpg");
+    background-image: url("poke.png");
     background-size: cover;
 
 }
 .paint {
-    background-image: url("paint.jpg");
+    background-image: url("paint.png");
     background-size: cover;
 
 }
 .xceed {
-    background-image: url("xceed.jpg");
+    background-image: url("xceed.png");
     background-size: cover;
 }
 .links {
