@@ -90,10 +90,10 @@ a:hover {
     display: flex;
     flex-direction: row;
     height: fit-content;
-    min-width: fit-content;
-    max-width: 70%;
+    width: 70%;
     margin: 20px auto;
     padding: 10px;
+    justify-content: space-between;
 }
 .smallImg {
     width: 200px;
@@ -105,7 +105,7 @@ a:hover {
     transform: scale(1.1)
 }
 .card-body {
-    width: 100%;
+    width: 400px;
 }
 .widthchange {
     height: 50px;
@@ -336,6 +336,12 @@ background-color: #1770d0;
         margin: 0 auto;
     }
 }
+@media only screen and (max-width:1395px){
+    .card {
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width:600px){
 .container {
     display: flex;
@@ -410,7 +416,9 @@ header {
         flex-direction: column;
         width: 100%;
     }
-
+    .card-body {
+        margin: 0 auto;
+    }
     .metext {
         background-color: rgba(255, 255, 255, 0.666);
     }
@@ -435,10 +443,10 @@ header {
 .leftorange {
     border-left: 5px solid orange;
 }
-.links {
+/* .links {
     color: rgb(29, 29, 98);
     margin-left: 50px;
-}
+} */
 .wrapper {
     display: flex;
     align-items: center;
