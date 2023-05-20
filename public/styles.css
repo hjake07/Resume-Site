@@ -97,7 +97,7 @@ a:hover {
     font-weight:100;
 }
 .card:hover {
-    box-shadow: 4px 4px 4px 1px black;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.461);
 }
 .cardWidth {
     width:66%;
@@ -417,9 +417,7 @@ header {
     .links {
         margin: 0 auto;
     }
-    .card {
-        /* width:80%; */
-    }
+
 }
 @media only screen and (max-width: 900px){
     .metext {
