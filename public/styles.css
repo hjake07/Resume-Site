@@ -110,7 +110,8 @@ a:hover {
 }
 
 .smallImg:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    border:1px solid black;
 }
 .card-body {
     width: 400px;
@@ -260,10 +261,13 @@ label {
     width: fit-content;
     height: 40px;
     color: white;
+    border:1px solid black;
 }
 .submit:hover {
 cursor: pointer;
-background-color: #1770d0;
+transform:scale(1.1);
+color:black;
+border:1px solid white;
 }
 .container {
    display: flex;
