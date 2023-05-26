@@ -28,3 +28,6 @@ function toggleShowing(){
         document.getElementById("morebutton").innerHTML = "More Details"
     }
 }
+function openMtech(){
+    window.open('https://mtec.edu/')
+}
