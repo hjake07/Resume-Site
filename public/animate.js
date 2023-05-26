@@ -26,6 +26,8 @@ function toggleShowing(){
         document.getElementById("typescript").className = 'hidden';
         document.getElementById("php").className = 'hidden';
         document.getElementById("morebutton").innerHTML = "More Details"
+        window.scrollTo(0, 0);
+
     }
 }
 function openMtech(){
