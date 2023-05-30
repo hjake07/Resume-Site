@@ -291,6 +291,9 @@ body {
     color:black;
     padding:15px;
 }
+.marginbottom {
+    margin-bottom: 50px;
+}
 .biggerList {
     font-size:24px;
     margin:0;
