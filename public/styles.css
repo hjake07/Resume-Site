@@ -233,7 +233,10 @@ body {
 .flex {
     display:flex;
     width: calc(100% + 0.4rem);
+}
+.blueflex {
     height:577px;
+
 }
 .actualTopImage {
     width:50%;
