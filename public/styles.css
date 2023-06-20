@@ -315,6 +315,8 @@ body {
     display:flex;
     flex-direction: column;
     align-items: start;
+    height:500px;
+    overflow:scroll;
 }
 .css {
     font-weight: 100;
