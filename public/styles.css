@@ -706,7 +706,8 @@ header {
     display:flex;
     flex-direction: column;
     align-items: center;
-    height:577px;
+    min-height:577px;
+    height:fit-content;
     padding:22px 0;
 }
 .spaceme {
