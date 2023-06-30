@@ -2,15 +2,15 @@ let showing = false;
 function toggleShowing(){
     if(showing ===false){
         showing = true;
-        document.getElementById("html").className = 'fadingtext';
-        document.getElementById("css").className = 'fadingtext';
-        document.getElementById("js").className = 'fadingtext';
-        document.getElementById("react").className = 'fadingtext';
-        document.getElementById("node").className = 'fadingtext';
-        document.getElementById("angular").className = 'fadingtext';
-        document.getElementById("express").className = 'fadingtext';
-        document.getElementById("typescript").className = 'fadingtext';
-        document.getElementById("php").className = 'fadingtext';
+        document.getElementById("html").className = 'loadInText';
+        document.getElementById("css").className = 'loadInText';
+        document.getElementById("js").className = 'loadInText';
+        document.getElementById("react").className = 'loadInText';
+        document.getElementById("node").className = 'loadInText';
+        document.getElementById("angular").className = 'loadInText';
+        document.getElementById("express").className = 'loadInText';
+        document.getElementById("typescript").className = 'loadInText';
+        document.getElementById("php").className = 'loadInText';
         document.getElementById("morebutton").innerHTML = "Less Details"
 
     }
@@ -33,3 +33,25 @@ function toggleShowing(){
 function openMtech(){
     window.open('https://mtec.edu/')
 }
+function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.className = 'fadingtext'
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+  
+  const observer = new IntersectionObserver(handleIntersection, {
+    root: null,
+    threshold: 0.5,
+  });
+  
+  const fadeElements = document.querySelectorAll(".fade-in");
+  
+  fadeElements.forEach((element) => {
+    observer.observe(element);
+  });
+  
+  
+  
